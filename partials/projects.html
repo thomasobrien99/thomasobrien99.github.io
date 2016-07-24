@@ -10,8 +10,16 @@
     			
     			<div class='custom-caption'>
           	<h4>{{slide.projectName}}</h4>
-          	<button class='btn btn-default'>&nbsp;LIVE&nbsp;</button>
-          	<button class='btn btn-default'>GITHUB</button>
+            	<button class='btn btn-default'>
+              <a ng-href="{{slide.liveURL}}">
+              &nbsp;LIVE&nbsp;
+              </a>
+              </button>
+            	<button class='btn btn-default'>
+              <a ng-href="{{slide.githubURL}}">
+              GITHUB
+              </a>
+              </button>
           	<p>{{slide.projectDescription}}</p>
           </div>
 
