@@ -7,7 +7,7 @@ function ProjectsController(){
 	pC.slides = [{
 		image:'assets/shaker.png',
 		projectName:"Shak'r",
-		projectDescription: "React Native based Android and Iphone mixology application. Uses a custom built API built in Python/Flask.",
+		projectDescription: "React Native based Android and Iphone mixology application. Uses a custom built API built in Python/Flask with SQLAlchemy.",
 		liveURL:"https://play.google.com/store/apps/details?id=com.shakr&hl=en",
 		githubURL:"https://github.com/thomasobrien99/shaker",
 		id: 0
@@ -18,8 +18,14 @@ function ProjectsController(){
 		liveURL:"https://linguoisdead.herokuapp.com/",
 		githubURL:"https://github.com/Anketo/q2_project",
 		id: 1
+	},{
+		image: 'assets/angular_reddit.png',
+		projectName: "Angular Reddit",
+		projectDescription: "A clone of the popular Reddit format built in AngularJS. Back end built in Express. Uses KnexJS and PostgreSQL for database management. Auth0 for Authentication",
+		liveURL:"https://github.com/thomasobrien99/angular_reddit",
+		githubURL:"https://github.com/thomasobrien99/angular_reddit",
+		id: 2
 	}]
-
 }
 
 
