@@ -1,4 +1,4 @@
-const app = angular.module('tpoPortfolio', ['ngRoute', 'ui.bootstrap']);
+const app = angular.module('tpoPortfolio', ['ngRoute', 'ngAnimate', 'ui.bootstrap']);
 
 app.config(function($routeProvider, $locationProvider){
 	$routeProvider
