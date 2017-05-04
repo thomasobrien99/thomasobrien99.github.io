@@ -1,0 +1,32 @@
+<div class="section group">
+
+	<div class="col span_1_of_12"></div>
+	
+	<div class="col span_10_of_12 project-body">
+		<div class="carousel">
+    	<div uib-carousel active="active" interval="3000" no-wrap="false">
+      	<div uib-slide ng-repeat="slide in pC.slides track by slide.id" index="slide.id">
+        	<img ng-src="{{slide.image}}" style="margin:auto;">
+    			
+    			<div class='custom-caption'>
+          	<h4>{{slide.projectName}}</h4>
+            	<button class='btn btn-default'>
+              <a ng-href="{{slide.liveURL}}">
+              &nbsp;LIVE&nbsp;
+              </a>
+              </button>
+            	<button class='btn btn-default'>
+              <a ng-href="{{slide.githubURL}}">
+              GITHUB
+              </a>
+              </button>
+          	<p>{{slide.projectDescription}}</p>
+          </div>
+      	</div>
+    	</div>
+  	</div>
+	</div>
+	
+	<div class="col span_1_of_12"></div>
+
+</div>
